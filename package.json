@@ -1,0 +1,28 @@
+{
+  "name": "bunchee-vue",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "scripts": {
+    "build": "bunchee"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "bunchee": "^5.1.2",
+    "typescript": "^5.0.0",
+    "vue": "^3.4.0"
+  },
+  "peerDependencies": {
+    "vue": "^3.4.0"
+  }
+}
