@@ -1,5 +1,5 @@
-import * as vue from 'vue';
+import * as Vue from 'vue';
 
-declare const Spinner: vue.DefineSetupFnComponent<Record<string, any>, {}, {}, Record<string, any> & {}, vue.PublicProps>;
+declare const Spinner: Vue.DefineSetupFnComponent<Record<string, any>, {}, {}, Record<string, any> & {}, Vue.PublicProps>;
 
 export { Spinner };
