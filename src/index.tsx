@@ -1,5 +1,7 @@
-
+import * as Vue from "vue";
 import { defineComponent } from "vue";
+
+(globalThis as typeof globalThis & { Vue: typeof Vue }).Vue = Vue
 
 export const Spinner = defineComponent(() => () => {
     return (

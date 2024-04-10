@@ -9,7 +9,7 @@
 
     // Vue
     "jsx": "preserve",
-    "jsxFactory": "h",
+    "jsxFactory": "Vue.h",
     "jsxImportSource": "vue",
     
     // Bundler mode
