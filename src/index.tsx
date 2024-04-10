@@ -1,7 +1,7 @@
 
-import { defineComponent } from "vue";
+import * as Vue from "vue";
 
-export const Spinner = defineComponent(() => () => {
+export const Spinner = Vue.defineComponent(() => () => {
     return (
       <svg
         class="z-10 block h-5 w-5 animate-spin align-middle text-white"
